@@ -1,6 +1,6 @@
 # Implementación del Juego Simón en un Entorno de Sistemas Empotrados
 
-Este repositorio contiene el material generado durante el diseño del juego Simón en un microprocesador BeagleBone Black (BBB), desarrollado en la asignatura Interfaces Físicos y Sistemas Empotrados del Máster Universitario en Automática e Informática Industrial (MUAII).
+Este repositorio contiene el material generado durante el diseño del juego Simón en un microprocesador BeagleBone Black (BBB), desarrollado en la asignatura Interfaces Físicos y Sistemas Empotrados del Máster Universitario en Automática e Informática Industrial (MUAII) durante el año 2025..
 
 ## Recursos del proyecto
 | Sección                    | Descripción                        |
@@ -53,7 +53,8 @@ Presentación del circuito del SIMON
 </table>
 
 Se incluye un video que muestra el funcionamiento del trabajo final.
-!!! EN PROCESO !!!
+### Demostración del funcionamiento
+https://youtube.com/shorts/EQTmY3pivEk?feature=share
 
 
 
