@@ -31,7 +31,7 @@ configurable en tiempo real.
 | Transistor NPN                    | —                | 1        |
 | MOSFET                            | —                | 6        |
 | Resistencia                       | 5 kΩ             | 7        |
-| Resistencia                       | 220 Ω            | 75       |
+| Resistencia                       | 220 Ω            | 7        |
 | Resistencia                       | 1 kΩ             | 6        |
 | Resistencia                       | 10 kΩ            | 2        |
 | Condensador                       | 100 nF           | 6        |
@@ -52,7 +52,6 @@ Presentación del circuito del SIMON
   </tr>
 </table>
 
-Se incluye un video que muestra el funcionamiento del trabajo final.
 ### Demostración del funcionamiento
 https://youtube.com/shorts/EQTmY3pivEk?feature=share
 
