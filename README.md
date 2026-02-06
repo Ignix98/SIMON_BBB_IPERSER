@@ -1,43 +1,39 @@
-# Implementación del Juego Simón en un Entorno de Sistemas Empotrados
+[🇪🇸 Español](./README.es.md) · **🇬🇧 English**
 
-Este repositorio contiene el material generado durante el diseño del juego Simón en un microprocesador BeagleBone Black (BBB), desarrollado en la asignatura Interfaces Físicos y Sistemas Empotrados del Máster Universitario en Automática e Informática Industrial (MUAII) durante el año 2025..
+# Implementation of the Simon Game in an Embedded Systems Environment
 
-## Recursos del proyecto
-| Sección                    | Descripción                        |
+This repository contains the material produced during the design of the Simon game on a BeagleBone Black (BBB) microprocessor, developed for the course **Physical Interfaces and Embedded Systems** of the **Master’s Degree in Automation and Industrial Computer Science (MUAII)** during the year 2025.
+
+## Project resources
+| Section | Description |
 |----------------------------|------------------------------------|
-| [Código](Codigo/Simon_game_def/src)      | Código del proyecto |
-| [Imagenes del proyecto](doc/)      | Presentación del Proyecto Final |
+| [Code](Codigo/Simon_game_def/src) | Project code |
+| [Project images](doc/) | Final Project presentation |
 
-## Descripción general
-El proyecto es el juego clásico Simon haciendo uso de una BeagleBone Black. Se usan seis botones
-arcade con LED para los colores y funciones START/PAUSA, un zumbador para los tonos, y dos
-diales para ajustar velocidad y tiempo de respuesta. La lógica se organiza en nueve estados (inicio,
-secuencia de inicio, reproducción de la secuencia de juego, lectura de los botones, pausas, cambio
-de fase y victoria), cada uno en su propio hilo, mientras interrupciones GPIO manejan los botones
-de inicio y pausa. Así, el juego avanza y valida la secuencia de colores de forma concurrente y
-configurable en tiempo real.
+## Overview
+This project implements the classic Simon game using a BeagleBone Black. Six arcade buttons with built-in LEDs are used for the colors and for the START/PAUSE functions, a buzzer is used for tones, and two dials adjust speed and response time. The logic is organized into nine states (startup, initial sequence, playback of the game sequence, button reading, pauses, phase change, and victory), each running in its own thread, while GPIO interrupts handle the start and pause buttons. In this way, the game progresses and validates the color sequence concurrently and can be configured in real time.
 
-## Lista de materiales
-| Componente                        | Especificaciones | Cantidad |
+## Bill of materials
+| Component | Specifications | Quantity |
 |-----------------------------------|------------------|----------|
-| BeagleBone Black (BBB)            | —                | 1        |
-| Fuente de alimentación BBB        | 5 V @ 2 A        | 1        |
-| Fuente de alimentación externa    | 5 V @ 1 A        | 1        |
-| Protoboard                        | —                | 2        |
-| Botón arcade (con LED interno)    | —                | 6        |
-| Potenciómetro (dial)              | —                | 2        |
-| Servomotor                        | —                | 2        |
-| Zumbador (buzzer)                 | —                | 1        |
-| Transistor NPN                    | —                | 1        |
-| MOSFET                            | —                | 6        |
-| Resistencia                       | 5 kΩ             | 7        |
-| Resistencia                       | 220 Ω            | 7        |
-| Resistencia                       | 1 kΩ             | 6        |
-| Resistencia                       | 10 kΩ            | 2        |
-| Condensador                       | 100 nF           | 6        |
+| BeagleBone Black (BBB) | — | 1 |
+| BBB power supply | 5 V @ 2 A | 1 |
+| External power supply | 5 V @ 1 A | 1 |
+| Breadboard | — | 2 |
+| Arcade button (with internal LED) | — | 6 |
+| Potentiometer (dial) | — | 2 |
+| Servo motor | — | 2 |
+| Buzzer | — | 1 |
+| NPN transistor | — | 1 |
+| MOSFET | — | 6 |
+| Resistor | 5 kΩ | 7 |
+| Resistor | 220 Ω | 7 |
+| Resistor | 1 kΩ | 6 |
+| Resistor | 10 kΩ | 2 |
+| Capacitor | 100 nF | 6 |
 
-## Resultado final
-Imágenes del SIMON.
+## Final result
+Images of the SIMON game.
 <table align="center">
   <tr>
     <td><img src="doc/simon_2.jpeg" width="600"></td>
@@ -45,21 +41,14 @@ Imágenes del SIMON.
   </tr>
 </table>
 
-Presentación del circuito del SIMON
+Circuit presentation of the SIMON game.
 <table align="center">
   <tr>
     <td><img src="doc/simon_1.jpeg" width="600"></td>
   </tr>
 </table>
 
-### Demostración del funcionamiento
+### Demo video
 https://youtube.com/shorts/EQTmY3pivEk?feature=share
-
-
-
-
-
-
-
 
 
